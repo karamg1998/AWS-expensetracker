@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(235, 202, 202);
+}
+.main-heading{
+    background-color: rebeccapurple;
+    color: white;
+    font-weight:bold;
+    padding: 15px;
+}
+.expense{
+    padding-top: 40px;
+    text-align: center;
+    align-items: center;
+}
+#save{
+    text-decoration: none;
+    border: none;
+    padding: 8px;
+    background-color: royalblue;
+    border-radius: 5px;
+    border: none;
+    color: whitesmoke;
+    font-size: 18px;
+}
+#expenseamount,#description,#category{
+    padding: 2px;
+    border-radius: 5px;
+    border:none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+.expenseamount{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: inherit;
+    margin-right: 4%;
+    margin-left: 10%;
+}
+.description{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: inherit;
+    margin-right: 7%;
+    margin-left: 12%;
+}
+.category{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: inherit;
+    margin-right:2%;
+    margin-left: 1.8%;
+}
+.toast{
+    background-color: rgb(226, 29, 29);
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    padding: 2rem;
+    margin: 1rem;
+   }
+.popup{
+   position: fixed;
+   right: 10px;
+   bottom: 10px;
+  }
+  .e-container{
+    padding-top: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: inherit;
+    color: rgb(5, 107, 114);
+  }
+  .edit{
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    background-color: rebeccapurple;
+    color: white;
+    font-size: 15px;
+  }
+  .del{
+        padding: 5px;
+        border: none;
+        border-radius: 3px;
+        background-color: rgb(240, 12, 12);
+        color: white;
+        font-size: 15px;
+  }
+  #logout{
+        padding: 6px;
+        margin-left: 10px;
+        border: none;
+        border-radius: 3px;
+        background-color: rgb(240, 12, 12);
+        color: white;
+        font-size: 20px;
+  }
+  #membership{
+    padding:6px;
+    margin-top: 5px;
+    margin-left: 79%;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background-color: royalblue;
+    font-size: 20px;
+  }
+  .user{
+    padding-top: 5px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .heading{
+    text-align: center;
+    font-size: 25px;
+  }
+  body.dark{
+    background-color: #1f1f1f;
+    color: white;
+  }
+  #leaderboard{
+    background-color: rosybrown;
+    padding: 3px;
+    font-size: 15px;
+    border-radius: 3px;
+    border: none;
+    margin-left: 80%;
+    font-weight: bold;
+  }
+  #home{
+    background-color: royalblue;
+    padding: 4px;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  .ser-c{
+    text-align: center;
+    border: 3px solid rosybrown;
+    padding: 3px;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  #download{
+    padding: 5px;
+    font-size: 15px;
+    color: white;
+    background-color: royalblue;
+    border-radius: 3px;
+    border: none;
+  }
+  .down{
+    text-align: center;
+    align-items: center;
+    padding: 7px;
+  }
+  .pagination{
+    text-align: center;
+    align-items: center;
+  }
+  .next{
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 15px;
+    border: 1px solid rgb(19, 112, 116);
+    background-color: rgb(19, 112, 116);
+    color: white;
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  .rpp{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(124, 113, 9);
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .rows{
+    width: 50px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    border: 3px solid rosybrown;
+  }

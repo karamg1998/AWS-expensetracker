@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="main-heading">
+        <h3 class="user"></h3>
+        <h2 class="heading">Day To Day Expenses</h2>
+    </div>
+    <button id="logout">Logout</button>
+    <button id="membership">👑Get Premium</button>
+    <div class="popup">
+
+    </div>
+    <form class="expense">
+        <label class="expenseamount">Expense Amount:</label>
+        <input type="number" id="expenseamount" name="expenseamount"><br><br>
+        <label class="description">Description:</label>
+        <input type="text" id="description" name="choosedescription"><br><br>
+        <label class="category">Choose Catogory:</label>
+        <select class="category" id="category" name="category">
+            <option value="movie">Movie</option>
+            <option value="fuel">Fuel</option>
+            <option value="electricity">Electricity</option>
+            <option value="water">Water</option>
+            <option value="wifi">Wifi</option>
+            <option value="expense">Expense</option>
+       </select><br><br>
+       <button id="save">Add Expense</button>
+    </form>
+    <div class="main">
+        
+    </div>
+    <div class="down">
+        <button id="download">Download Expenses</button>
+    </div>
+    <label class="rpp">Rows per page</label>
+    <select class="rows" id="rows" name="rows">
+        <option class="option">5</option>
+        <option class="option">10</option>
+        <option class="option">15</option>
+        <option class="option">20</option>
+        <option class="option">25</option>
+    </select>
+    <div class="pagination">
+  
+    </div>
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <script src="expense.js" async></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.1.3/axios.js" ></script>
+</body>
+</html>

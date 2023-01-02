@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(121, 209, 231);
+}
+.main-heading{
+    text-align: center;
+    background-color: rebeccapurple;
+    color: white;
+    font-weight:bold;
+    padding: 30px;
+}
+.login{
+    padding-top: 40px;
+    text-align: center;
+    align-items: center;
+}
+.email{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: inherit;
+    margin-right: 3.5%;
+}
+.password,.f-email{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: inherit;
+}
+#login{
+    padding: 10px;
+    background-color: royalblue;
+    border-radius: 5px;
+    border: none;
+    color: whitesmoke;
+    font-size: 20px;
+}
+#name,#email,#password,#fo-email,#cPassword{
+    padding: 2px;
+    padding-right: 3%;
+    border-radius: 5px;
+    border:none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+.toast{
+    background-color: rgb(226, 29, 29);
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    padding: 2rem;
+    margin: 1rem;
+   }
+.popup{
+   position: fixed;
+   right: 10px;
+   bottom: 10px;
+  }
+  #new-user{
+    text-decoration: none;
+    border: none;
+    background-color:  rgb(121, 209, 231);
+    font-size: 20px;
+    color: rgb(37, 17, 218);
+}
+#Forgot,#forgot{
+    padding: 5px;
+    background-color: royalblue;
+    border-radius: 5px;
+    border: none;
+    color: whitesmoke;
+    font-size: 20px;
+}
+.generated-link,.para{
+  text-decoration: none;
+  font-size: 25px;
+  color: rgb(15, 64, 224);
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+
+.redi{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20%;
+    color: rgb(9, 9, 71);
+}

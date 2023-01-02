@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(235, 202, 202);
+}
+.main-heading{
+    background-color: rebeccapurple;
+    color: white;
+    font-weight:bold;
+    padding: 15px;
+}
+.heading{
+    text-align: center;
+}
+#home{
+    background-color: royalblue;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    padding: 6px;
+}
+.user{
+    padding-top: 5px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .user-container{
+    padding-top: 3px;
+    display: block;
+    border: 2px solid black;
+  }
+  .user-c{
+    padding: 6px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    background-color: rgb(4, 70, 70);
+    border-radius: 3px;
+    border:none;
+    font-size: 20px;
+    color: white;
+  }
+  .exp{
+    display: flex;
+  }
+  .user-name{
+    color: rgb(11, 59, 15);
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 42px;
+  }
+  .user-exp{
+    color: rgb(11, 59, 15);
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 60%;
+  }
+  .user-e{
+    display: inline-block;
+    margin-left: 65%;
+    font-size: 25px;
+    font-weight:bold ;
+  }
+  .toast{
+    background-color: rgb(226, 29, 29);
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    padding: 2rem;
+    margin: 1rem;
+   }
+  
+.popup{
+   position: fixed;
+   right: 10px;
+   bottom: 10px;
+  }
+  .e-container{
+    padding-top: 5px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: inherit;
+    color: rgb(5, 158, 82);
+    margin-bottom: 10px;
+  }
+ 
